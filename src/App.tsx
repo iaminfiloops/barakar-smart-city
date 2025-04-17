@@ -62,12 +62,12 @@ function App() {
         <div className="grid md:grid-cols-2 gap-12">
           {/* Left Column */}
           <div>
-            <div className="grid grid-cols-2 gap-4 mb-8">
-              <img src="https://st2.indiarailinfo.com/kjfdsuiemjvcya0/0/3/5/6/794356/0/1045084603638013004255674469035n.jpg" alt="Barakar Railway Station" className="w-full h-48 object-cover rounded-lg shadow-lg" />
-              <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Temple in Barakar" className="w-full h-48 object-cover rounded-lg shadow-lg" />
-              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Dishergath Area" className="w-full h-48 object-cover rounded-lg shadow-lg" />
-              <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Development Plan" className="w-full h-48 object-cover rounded-lg shadow-lg" />
-            </div>
+          <div class="image-grid">
+          <img src="https://st2.indiarailinfo.com/kjfdsuiemjvcya0/0/3/5/6/794356/0/1045084603638013004255674469035n.jpg" alt="Barakar Railway Station" class="grid-image">
+          <img src="https://res.cloudinary.com/dyiso4ohk/image/upload/v1744792372/WhatsApp_Image_2025-04-16_at_13.56.54_c6da68e6_mbi2pe.jpg" alt="Temple in Barakar" class="grid-image">
+          <img src="https://res.cloudinary.com/dyiso4ohk/image/upload/v1744792372/WhatsApp_Image_2025-04-16_at_13.56.58_be012613_mf1ppr.jpg" alt="Dishergath Area" class="grid-image">
+          <img src="https://res.cloudinary.com/dyiso4ohk/image/upload/v1744792371/WhatsApp_Image_2025-04-16_at_13.56.55_32638429_ig0p58.jpg" alt="Development Plan" class="grid-image">
+        </div>
 
             <div className="bg-blue-600 text-white p-6 rounded-lg mb-8">
               <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
